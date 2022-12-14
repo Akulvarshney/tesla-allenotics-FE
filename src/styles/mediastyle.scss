@@ -1,0 +1,25 @@
+@media screen and (max-width:1000px) {
+
+    .navbar {
+        margin: 0 1rem;
+
+        grid-template-columns: 1fr 1fr;
+
+        >.menuOne {
+            display: none;
+        }
+
+        .menuTwo {
+            display: none;
+        }
+
+        .burger {
+            display: block;
+            position: absolute;
+            right: 10%;
+        }
+    }
+
+
+
+}
